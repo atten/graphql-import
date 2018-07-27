@@ -123,7 +123,7 @@ export function importSchema(
 
   document.definitions = completeDefinitionPool(
     flatten(allDefinitions),
-    firstSet,
+    [],
     flatten(typeDefinitions),
   )
 
